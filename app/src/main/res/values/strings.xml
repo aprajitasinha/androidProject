@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidM3ReTest</string>
+    <string name="home_town">Home Town</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="john_thomas">John Thomas</string>
+    <string name="username">QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm0123456789.</string>
+    <string name="name">QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm</string>
+    <string name="bio">Write your bio...</string>
+</resources>

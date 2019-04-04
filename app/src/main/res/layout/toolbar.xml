@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorBlack"
+    android:gravity="center"
+    >
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/arrow_back"
+        />
+
+    <TextView
+        android:id="@+id/cl_dtl_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call Detail"
+        android:textSize="@dimen/dimen_20sp"
+        android:textColor="@android:color/white"
+        android:layout_centerInParent="true"
+
+        />
+
+    <ImageView
+        android:id="@+id/iv_call"
+        android:layout_width="@dimen/dimen_25dp"
+        android:layout_height="@dimen/dimen_25dp"
+        android:src="@mipmap/add_call"
+        android:layout_marginEnd="@dimen/dimen_50dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+
+        />
+
+    <ImageView
+        android:id="@+id/iv_setting"
+        android:layout_width="@dimen/dimen_30dp"
+        android:layout_height="@dimen/dimen_40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:src="@drawable/image_setting" />
+
+
+
+</RelativeLayout>
